@@ -10,7 +10,7 @@ export default function syllabusUnits() {
 
 
             <div className="mb-3 bg-info px-2 text-white">
-                <h2>This course covers the following units:</h2>
+                <h3>This course covers the following units:</h3>
             </div>
             
 
