@@ -29,7 +29,7 @@ export default function overview() {
                 </Row>
             </Jumbotron>
 
-            <div className="mb-3 bg-dark text-white" >
+            <div className="mb-3 px-2 bg-info text-white" >
                 <h3 >Course Evaluation Plan</h3>
             </div>
 
@@ -64,7 +64,7 @@ export default function overview() {
                 </tbody>
             </Table>
 
-            <div className="mb-3 bg-dark text-white">
+            <div className="mb-3 bg-info px-2 text-white">
                 <h3 >Course Outcomes</h3>
             </div>
 
