@@ -4,7 +4,7 @@ import Heading from '../components/heading'
 
 export default function overview() {
     return (
-        <Container>
+        <Container className="App pb-5">
 
             <Heading title="Syllabus Overview"/>
 
@@ -54,7 +54,7 @@ export default function overview() {
                     <tr>
                         <td>
                             <h3>C01</h3>
-                            <p>Able to acquire knowledge about fundamental concepts of web technology - web hardware and software architectures, WWW, Web 2.0, Web 3.0, CLient Server Computing, Tiered Software Architecture and markup languages and their grammars.</p>
+                            <p>Able to acquire knowledge about fundamental concepts of web technology - web hardware and software architectures, WWW, Web 2.0, Web 3.0, Client Server Computing, Tiered Software Architecture and markup languages and their grammars.</p>
                         </td>
                     </tr>
 
@@ -90,9 +90,6 @@ export default function overview() {
                 </tbody>
 
             </Table>
-
-
-
             
         </Container>
     )

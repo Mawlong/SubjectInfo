@@ -14,7 +14,7 @@ export default function syllabusUnits() {
             </div>
             
 
-            <Accordion defaultActiveKey="0">
+            <Accordion defaultActiveKey="0" className="pb-5">
 
                 <Card>
                     <Card.Header>

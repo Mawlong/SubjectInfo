@@ -4,7 +4,7 @@ import Heading from '../components/heading'
 
 export default function references() {
     return (
-        <Container>
+        <Container className="App pb-5">
             <Heading title="References"/>
             <div className="mb-3 px-2 bg-info text-white" >
                 <h3 >References used for this course</h3>

@@ -14,17 +14,19 @@ function heading(props) {
                         <li><b>Name:</b> WebTechnology</li>
                         <li><b>Subject Code:</b> CS414</li>
                         <li><b>Credits:</b> 3-0-0 (3)</li>
-                        <li><b>Instructor:</b> Dr. Alok Chakraborty</li>
+                        <li><b>Instructor:</b> <a href="http://nitmeghalaya.in/nitmeghalaya/department/computer-science-engineering/faculty-1/dr-alok-chakrabarty-1" target="blank">Dr. Alok Chakraborty</a></li>
 
                     </ul>
                 </Col>
                 
                 <Col className="" sm={12} md={6}>
-                    <a href="/" >
+                    <a href="http://nitmeghalaya.in/nitmeghalaya/" target="blank" >
                         <img src={Logo} alt="NIT meghalaya" style={{width:"100px",height:"auto"}}/>
                     </a>
-                        <p className="pt-2">NIT Meghalaya</p>
-                        <p>Computer Science &amp; Engineering Department</p>
+                    <div className="pt-3"> 
+                        <p><a href="http://nitmeghalaya.in/nitmeghalaya/" target="blank">NIT Meghalaya</a></p>
+                        <p><a href="http://nitmeghalaya.in/nitmeghalaya/department/computer-science-engineering" target="blank">Computer Science &amp; Engineering Department</a></p>
+                    </div>
                 </Col>
             </Row>
         </Jumbotron>
