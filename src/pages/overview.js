@@ -1,33 +1,14 @@
 import React from 'react'
-import{Jumbotron,Container,Row,Col, Table} from 'react-bootstrap'
-import Logo from '../assets/LOGO.png'
+import{Container, Table} from 'react-bootstrap'
+import Heading from '../components/heading'
 
 export default function overview() {
     return (
         <Container>
 
-            <Jumbotron className=" bg-transparent" align="center">
-                <Row>
-                    <Col className="" sm={12} md={6} align="left">
-                        <h2 className="pb-2 font-weight-bolder">Syllabus Overview</h2>
-                        <ul>
-                            <li><b>Name:</b> WebTechnology</li>
-                            <li><b>Subject Code:</b> CS414</li>
-                            <li><b>Credits:</b> 3-0-0 (3)</li>
-                            <li><b>Instructor:</b> Dr. Alok Chakraborty</li>
+            <Heading title="Syllabus Overview"/>
 
-                        </ul>
-                    </Col>
-                    
-                    <Col className="" sm={12} md={6}>
-                        <a href="/" >
-                            <img src={Logo} alt="NIT meghalaya" style={{width:"100px",height:"auto"}}/>
-                        </a>
-                            <p className="pt-2">NIT Meghalaya</p>
-                            <p>Computer Science &amp; Engineering Department</p>
-                    </Col>
-                </Row>
-            </Jumbotron>
+            
 
             <div className="mb-3 px-2 bg-info text-white" >
                 <h3 >Course Evaluation Plan</h3>
