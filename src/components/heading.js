@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from '../assets/LOGO.png'
 import{Jumbotron, Row, Col,} from 'react-bootstrap'
 
+// This funtion receives props {any} and then renders the passed information
+
 function heading(props) {
     return (
         <Jumbotron className=" bg-transparent" align="center">

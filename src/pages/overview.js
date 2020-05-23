@@ -46,7 +46,7 @@ export default function overview() {
             </Table>
 
             <div className="mb-3 bg-info px-2 text-white">
-                <h3 >Course Outcomes</h3>
+                <h3 >Course Outcome</h3>
             </div>
 
             <Table bordered responsive>
