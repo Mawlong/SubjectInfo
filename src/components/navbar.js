@@ -17,14 +17,14 @@ export default function navbar() {
         <Router>
             <Container className = 'p-0' fluid = {true} >
 
-                <Navbar className="px-2 mx-auto" bg="dark" variant="dark" collapseOnSelect expand='lg'>
-                    <Navbar.Brand align="left">Web Technology</Navbar.Brand>
+                <Navbar className="px-2" bg="dark" variant="dark" collapseOnSelect expand='lg'>
+                    <Navbar.Brand align="center" className="justify-content-center">Web Technology</Navbar.Brand>
 
                     <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
 
                     <Navbar.Collapse id="navbar-toggle">
 
-                        <Nav className="ml-auto" align="left">
+                        <Nav>
                             <Nav.Item>
                                 <Nav.Link eventKey = '1' as={Link} to = '/'>Overview</Nav.Link>
                             </Nav.Item>
