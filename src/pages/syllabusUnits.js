@@ -1,5 +1,5 @@
 import React from 'react'
-import {Accordion,Container,Card, Button, Jumbotron} from 'react-bootstrap'
+import {Accordion,Container,Card} from 'react-bootstrap'
 import Heading from '../components/heading'
 
 export default function syllabusUnits() {
